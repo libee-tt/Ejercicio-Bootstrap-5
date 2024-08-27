@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio bootstrap</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- styles -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navsita">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- carrusel con imágenes (captions)-->
+    <div class="container text-center carrusel">
+        <div class="row">
+            <div class="col-sm">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.thepaws.net/wp-content/uploads/2019/04/funny-cats.jpg"
+                                class="d-block w-100" alt="gatos chistosos" id="carrusel">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Selfie de gatitos</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, incidunt.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.hdwallpaper.nu/wp-content/uploads/2015/02/Funny-Cat-Hidden.jpg"
+                                class="d-block w-100" alt="gato escondido" id="carrusel">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Gatito escondido</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, error!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://3.bp.blogspot.com/-HZdgdU8mItk/U96tukcNm1I/AAAAAAAAAJs/zPgNhQbz70w/s1600/buenos+d%25C3%25ADas.jpg"
+                                class="d-block w-100" alt="gato oliendo" id="carrusel">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Gatito oliéndote</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, odit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <!-- cards con imágenes-->
+    <div class="container text-center cards">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/originals/a6/fd/37/a6fd376780416e7244f2e59634898c4b.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/originals/a6/fd/37/a6fd376780416e7244f2e59634898c4b.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/originals/a6/fd/37/a6fd376780416e7244f2e59634898c4b.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/originals/a6/fd/37/a6fd376780416e7244f2e59634898c4b.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <!-- lista -->
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm">
+                <ul class="list-group">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                    <li class="list-group-item">A fourth item</li>
+                    <li class="list-group-item">And a fifth one</li>
+                </ul>
+            </div>
+            <div class="col-sm">
+                <ul class="list-group">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                    <li class="list-group-item">A fourth item</li>
+                    <li class="list-group-item">And a fifth one</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <br><br>
+    <hr>
+    <!-- footer -->
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm">
+                    <h1>Lorem</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, officia?</p>
+                </div>
+                <div class="col-sm">
+                    <h1>Lorem</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, tenetur.</p>
+                </div>
+                <div class="col-sm">
+                    <h1>Lorem</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, tenetur.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+body{
+    justify-content: center;
+}
+
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+}
+
+.carrusel{
+    width: 40%;
+}
+
+.navsita{
+    background-color: rgb(247, 208, 193);
+    margin-bottom: 10px;
+}
